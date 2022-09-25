@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+.date {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    height: 100%;
+    margin: 30px;
+    background: green;
+    color: white;
+}
+
+.hours-forecast {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container2 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/*.forecast {*/
+/*    display: flex;*/
+/*}*/
